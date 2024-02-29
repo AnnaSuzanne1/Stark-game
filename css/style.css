@@ -1,0 +1,135 @@
+.voorwerpen {
+    display: flex;
+    justify-content: center;
+    margin-top: 40em;
+}
+
+.voorwerpen p {
+    padding: 1.5em;
+    background-color: rgb(238, 211, 35);
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 7px;
+    cursor: default;
+}
+
+.timer {
+    padding: 1em;
+    background-color: rgb(238, 211, 35);
+    text-align: center;
+}
+
+#shield {
+    position: absolute;
+    width: 6em;
+    position: absolute;
+    top: 32em;
+    left: 85.7em;
+    border: 1px solid #000000;
+}
+
+#thor {
+    position: absolute;
+    width: 7em;
+    margin-left: 8em;
+}
+
+#gauntlet {
+    position: absolute;
+    width: 3em;
+    margin-left: 14em;
+    margin-top: 37em;
+}
+
+#spiderman {
+    position: absolute;
+    width: 4em;
+    margin-top: 10em;
+    margin-left: 80em;
+}
+
+.sterren {
+    position: absolute;
+    width: 10em;
+    margin-left: 20em;
+    right: 0px;
+}
+
+#sterren3 {
+    display: block;
+}
+
+#sterren2 {
+    display: none;
+}
+
+#ster1 {
+    display: none;
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-left: 41.5em;
+    margin-top: 23em;
+}
+
+#next {
+    display: none;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(238, 211, 35);
+    box-shadow: 4px;
+    font-size: large;
+}
+
+#again {
+    display: none;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(238, 211, 35);
+    box-shadow: 4px;
+    font-size: large;
+}
+
+#welldone {
+    position: absolute;
+    margin-left: 20.3em;
+    margin-top: 8em;
+    background-color: rgb(238, 211, 35);
+    padding: 6px;
+    border-radius: 3px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: none;
+}
+
+
+#wakanda {
+    position: absolute;
+    width: 5em;
+    margin-left: 80em;
+    margin-top: 26em;
+}
+
+#avengers {
+    position: absolute;
+    width: 5em;
+    margin-left: 32em;
+    margin-top: 16em;
+}
+
+#hulk {
+    position: absolute;
+    width: 5em;
+    margin-left: 4em;
+    margin-top: 40em;
+}
+
+#missmarvel {
+    position: absolute;
+    width: 4em;
+    margin-left: 3.5em;
+    margin-top: 1em;
+}

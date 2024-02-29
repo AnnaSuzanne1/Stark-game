@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level 2</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <style>
+        body {
+            background: url(images/secondroom.webp);
+        }
+    </style>
+    <div class="timer">
+        <div class="btnGroup">
+            <span class="Btn" id="verifiBtn">
+            </span>
+            <span class="timer">
+                <span id="counter"></span>
+            </span>
+        </div>
+    </div>
+
+        <img id="wakanda" class="image1" src="images/wakanda.png" alt="blackpanther" onclick="firstClick()">
+        <!-- https://www.deviantart.com/metropolis-hero1125/art/Black-Panther-Wakanda-Forever-Queen-Shuri-PNG-937645064 -->
+        <img id="avengers" class="image2" src="images/avengers.png" alt="avengerslogo" onclick="secondClick()">
+        <!-- https://freepngimg.com/png/24591-avengers -->
+        <img id="hulk" class="image3" src="images/hulk.png" alt="hulk" onclick="thirdClick()">
+        <!-- https://www.pngkey.com/maxpic/u2q8i1y3e6u2o0u2/ -->
+        <img id="missmarvel" class="image4" src="images/missmarvel.png" alt="missmarvel" onclick="fourthClick()">
+        <!-- https://www.deviantart.com/captain-kingsman16/art/Captain-Marvel-3-PNG-790307473 -->
+        <div class="sterren">
+            <img id="sterren3" src="images/sterren3.png" alt="Sterren">
+            <img id="sterren2" src="images/sterren2.png" alt="Sterren">
+            <img id="ster1" src="images/ster1.png" alt="Sterren">
+        </div>
+
+        <h1 id="welldone">Well done!</h1>
+        <div class="buttons">
+            <button onclick="window.location.reload()" id="again">Try Again</button>
+            <button id="next"> <a href="index.html"> Next Level</a></button>
+        </div>
+
+        <div class="voorwerpen">
+            <p id="tekst1">Black Panther</p>
+            <p id="tekst2">Avengers logo</p>
+            <p id="tekst3">Hulk</p>
+            <p id="tekst4">Miss Marvel</p>
+        </div>
+
+    <script src="js/game.js"></script>
+</body>
+
+</html>
